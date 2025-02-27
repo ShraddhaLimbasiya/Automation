@@ -35,6 +35,7 @@ public class LoginDemoSteps_PF {
     @And("user is on login page")
     public void userIsOnLoginPage() {
         driver.navigate().to("https://www.saucedemo.com/");
+        System.out.println("User is on logon page");
 
     }
 
