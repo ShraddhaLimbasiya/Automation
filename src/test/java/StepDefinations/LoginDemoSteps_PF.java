@@ -36,6 +36,7 @@ public class LoginDemoSteps_PF {
     public void userIsOnLoginPage() {
         driver.navigate().to("https://www.saucedemo.com/");
         System.out.println("User is on logon page");
+        System.out.println("Today is features day");
 
     }
 
