@@ -30,6 +30,7 @@ public class LoginDemoSteps_PF {
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+        system.out.println("This is Demo for Rebase");
     }
 
     @And("user is on login page")
